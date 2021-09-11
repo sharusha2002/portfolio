@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="style.css" rel="stylesheet">
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <main>
+            <nav class="navBar">
+                <h1>SHARUSHA S PORTFOLIO</h1>
+                <div class='navigationMenu'>
+                    <a href='#about'>ABOUT ME</a>
+                    <a href='#skills'>SKILLS</a>
+                    <a href='#projects'>PROJECTS</a>
+                    <a href='#contactForm'>LET'S CONNECT</a>                
+                </div>
+            </nav>
+            <section class="heroSection">
+                <img class="profileImage" src="profilephoto.png">
+                <div class="heroSectionDetails">
+                    <h1>SHARUSHA S</h1>
+                    <h3> Student at RMD Engineering College</h3>
+                </div>
+            </section>
+            <section class="#about" id="about">
+                <h1>What am I Doing....</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vestibulum at lacinia dui. Suspendisse maximus sem arcu, sit amet pretium dolor lobortis vel. 
+                    Aenean tincidunt nulla quis justo rhoncus efficitur. Aliquam iaculis pellentesque ex, non ullamcorper felis ullamcorper eget. 
+                    Sed odio lorem, interdum eu rutrum id, fermentum convallis odio. Etiam aliquet et sem quis sollicitudin. 
+                    Donec non cursus odio, sodales pharetra leo. Aenean quis dui eu augue aliquam interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel enim eleifend augue fringilla fringilla posuere sit amet nisl. Integer feugiat tempus nibh ut ornare. Proin et condimentum risus. Vestibulum sed fermentum lacus. Praesent interdum urna vel dolor tincidunt, non tempor risus ultricies. 
+                    Ut facilisis dui mollis tellus consectetur venenatis.
+                </p>
+            </section>
+            <section class='skillsAndProjects'>
+                <div class="skills" id="skills">
+                    <h1 class="cardHeading">SKILLS</h1>
+                    <img src="Images folder/html.png" title="Html"/>
+                    <img src="Images folder/css.png" title="CSS"/>
+                    <img src="Images folder/javascript-logo.png" title="Javascript"/>
+                    <img src="Images folder/c.png" title="C"/>
+                    <img src="Images folder/python.png" title="Python"/>
+                </div>
+                <div class="projects" id="projects">
+                    <h1 class="cardHeading">Projects</h1>
+                    <div class="projectContainer">
+                        <img src="Images folder/html.png">
+                        <div class="ProjectDescription">
+                            <h4>Project Name</h4>
+                            <p>Some Details Of the Project. Some Details Of the Project. 
+                                Some Details Of the Project. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="projectContainer">
+                        <img src="Images folder/javascript-logo.png">
+                        <div class="ProjectDescription">
+                            <h4>Project Name</h4>
+                            <p>Some Details Of the Project.  Some Details Of the Project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contactForm" id="contactForm">
+                <h2>Let's Connect!</h2>
+                    <div class="formGroup">
+                        <label form="name">Enter Full Name</label><br/>
+                        <input type="text" id="name" placeholder="Full Name"/>
+                    </div>
+                    <div class="formGroup">
+                        <label form="email">Email</label><br/>
+                        <input type="text" id="email" placeholder="Email"/>
+                    </div>
+                    <div class="formGroup">
+                        <label form="message">Message</label><br/>
+                        <textarea placeholder="Send Some Message!" id="message" name="review" rows="5" cols="70">
+                        </textarea>
+                    </div>
+                <button class="submitButton" onclick={submit()}>Connect</button>
+            </section>
+        </main>
+    </body>
+</html>
